@@ -30,6 +30,16 @@
       type: 'scatter'
     };
 
+    var trace5 = {
+      x_axis = []
+  for i in range(200):
+  x_axis.append(i)
+  plt.plot(x_axis,average_dist_list)
+      mode: 'markers'
+      type: 'scatter'
+
+    }
+
     var trace2 = {
       x: [2, 3, 4, 5],
       y: [16, 5, 11, 9],
@@ -62,7 +72,7 @@
 
     <p>
     Load this file in a code editor in order to make changes to it. Note the three <code>trace</code> objects:
-    
+
     <pre>
       <code>
         // Your Copy/Pasted D3 Template Code
@@ -116,7 +126,6 @@
     <p>
     <a href="https://d3js.org">D3</a> and <a href="https://bl.ocks.org/mbostock">Mike Bostock's Blocks </a>
     </p>
-   
+
   </div>
 <body>
-
